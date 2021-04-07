@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [reactRefresh()],
   server: {
     port: 2130,
-    open: true,
-  },
+    open: true
+  }
 });

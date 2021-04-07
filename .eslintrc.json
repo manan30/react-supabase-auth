@@ -26,13 +26,17 @@
       "jsx": true
     },
     "ecmaVersion": 12,
-    "sourceType": "module",
-    "project": "./tsconfig.json"
+    "sourceType": "module"
   },
   "settings": {
     "react": {
       "version": "detect"
     }
   },
-  "rules": {}
+  "rules": {
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "react/prop-types": "off",
+    "react/display-name": "off"
+  }
 }
